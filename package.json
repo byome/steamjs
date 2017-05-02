@@ -1,0 +1,27 @@
+{
+  "name": "steam.js",
+  "version": "0.0.0",
+  "description": "Javascript access to the Steam Community API",
+  "main": "dist/steam.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byome/steam.js.git"
+  },
+  "keywords": [
+    "steam",
+    "valve",
+    "api",
+    "videogames",
+    "rust",
+    "byome"
+  ],
+  "author": "Miles Zimmerman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/byome/steam.js/issues"
+  },
+  "homepage": "https://github.com/byome/steam.js#readme"
+}
