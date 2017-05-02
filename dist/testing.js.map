@@ -1,1 +1,0 @@
-{"version":3,"sources":["../src/testing.js"],"names":["sdf","console","log"],"mappings":";;;;;kBAAwBA,G;AAAT,SAASA,GAAT,GAAe;AAC5BC,UAAQC,GAAR,CAAY,QAAZ;AACD","file":"testing.js","sourcesContent":["export default function sdf() {\n  console.log('WORKED');\n}\n"]}

@@ -2,10 +2,12 @@
   "name": "steam.js",
   "version": "0.0.0",
   "description": "Javascript access to the Steam Community API",
-  "main": "dist/index.js",
+  "main": "dist/steam.js",
   "scripts": {
     "start": "node dist/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "grunt build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -r dist/*"
   },
   "repository": {
     "type": "git",
@@ -29,5 +31,10 @@
     "babel-preset-env": "^1.4.0",
     "grunt": "^1.0.1",
     "grunt-babel": "^6.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.3"
   }
 }
