@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../src/objects/player.js"],"names":["Player","constructor","playerObject"],"mappings":";;;;;AAAe,MAAMA,MAAN,CAAa;AAC1BC,cAAYC,YAAZ,EAA0B;AACxB,SAAKA,YAAL,GAAoBA,YAApB;AACD;AAHyB;kBAAPF,M","file":"player.js","sourcesContent":["export default class Player {\n  constructor(playerObject) {\n    this.playerObject = playerObject;\n  }\n}\n"]}

@@ -43,6 +43,9 @@ class Steam {
     var _this = this;
 
     return _asyncToGenerator(function* () {
+      if (!steamIds) {
+        throw new Error('#getPlayerSummaries: steamIds parameter missing.');
+      }
       const endpoint = _utils2.default.apiEndpoint(_constants.ACTION_PATHS.getPlayerSummaries, _this.config.apiKey, _this._commaSeparatedIds(steamIds));
       try {
         let res = yield (0, _requestPromiseNative2.default)({ uri: endpoint, json: true });

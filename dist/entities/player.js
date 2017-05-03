@@ -68,11 +68,11 @@ class Player {
   }
 
   timeCreated() {
-    return this.playerObject.timecreated;
+    return Date.parse(this.playerObject.timecreated);
   }
 
   createdAt() {
-    return this.timeCreate();
+    return this.timeCreated();
   }
 
   personaStateFlags() {
