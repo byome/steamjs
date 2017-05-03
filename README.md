@@ -20,4 +20,19 @@ const steamClient = new Steam({ apiKey: '1234ASDF' });
 
 ## API ##
 
-### Get 
+### getPlayerSummaries(steamIds) ###
+**Returns Promise**
+
+_Note: the [Player API](https://github.com/byome/steam.js/wiki/Player) is documented in the wiki._
+
+**Usage**
+```javascript
+let players = await getPlayerSummaries('1234,5678');
+players.forEach((player) => console.log(player.name()));
+```
+or
+```javascript
+getPlayerSummaries('1234').then((players) => {
+  players.forEach((player) => console.log(player.name()));
+});
+```
