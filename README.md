@@ -1,4 +1,4 @@
-# Steam.JS #
+# SteamJS #
 Javascript access to the Steam Community API
 
 ## Initialize ##
@@ -7,13 +7,13 @@ If you do not use a .env file, you can set the apiKey manually:
 
 #### With ```dotenv``` ####
 ```javascript
-import Steam from 'steam.js';
+import Steam from 'steamjs';
 const steamClient = new Steam();
 ```
 
 #### Default ####
 ```javascript
-import Steam from 'steam.js';
+import Steam from 'steamjs';
 const steamClient = new Steam({ apiKey: '1234ASDF' });
 ```
 
@@ -23,7 +23,7 @@ const steamClient = new Steam({ apiKey: '1234ASDF' });
 ### getPlayerSummaries(steamIds) ###
 **Returns Promise**
 
-_Note: the [Player API](https://github.com/byome/steam.js/wiki/Player) is documented in the wiki._
+_Note: the [Player API](https://github.com/byome/steamjs/wiki/Player) is documented in the wiki._
 
 **Usage**
 ```javascript
