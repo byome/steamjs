@@ -1,5 +1,5 @@
 {
-  "name": "steam.js",
+  "name": "steamjs",
   "version": "0.0.1",
   "description": "Javascript access to the Steam Community API",
   "main": "dist/steam.js",
