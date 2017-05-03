@@ -22,6 +22,7 @@ export default class Steam {
   }
 
   async getPlayerSummaries(steamIds) {
+    if (!steamIds) { throw new Error('#getPlayerSummaries: steamIds parameter missing.'); }
     const endpoint = Utils.apiEndpoint(
       ACTION_PATHS.getPlayerSummaries,
       this.config.apiKey,
