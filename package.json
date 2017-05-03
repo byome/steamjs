@@ -1,6 +1,6 @@
 {
   "name": "steam.js",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Javascript access to the Steam Community API",
   "main": "dist/steam.js",
   "scripts": {
